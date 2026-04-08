@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(43, 43, 43);
+}
+
+.menu {
+    cursor: pointer;
+    margin: 15px;
+}
+
+.top {
+    display: flex;
+    width: 100%;
+    height: 56px;
+    align-items: center;
+    flex-direction: row;
+}
+
+.logo {
+    top: 3px;
+    margin: 30px;
+    position: relative;
+    cursor: pointer;
+}
+
+.search_container {
+    width: 50%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.search_main_container {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    align-items: start;
+    overflow: hidden;
+}
+
+.search_input {
+    width: 90%;
+    height: 100%;    
+}
+
+.search_button {
+    width: 10%;
+    height: 100%;
+}
