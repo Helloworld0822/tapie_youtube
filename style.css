@@ -25,26 +25,43 @@ body {
 
 .search_container {
     width: 50%;
-    height: 70%;
+    height: 90%;
+
+}
+
+.search_main_container {
+    width: 100%;
+    height: 40px;
     display: flex;
     align-items: center;
     flex-direction: row;
-    background-color: rgb(45, 45, 45);
-    border-radius: 10px; 
-    
+    background-color: rgba(45, 45, 45, 0);
+    border-radius: 40px; 
+    border : rgba(0,0,0,1) solid 1px;
+}
+
+.search_img {
+    margin: 10px;
 }
 
 .search_input {
     top: 10px;
     background-color: rgba(255,255,255,0);
-    width: 90%;
-    height: 80%;
+    width: 70%;
     border: #000 solid 0px;
 }
 
+.keyboard_button {
+    margin: 20px;
+}
+
 .search_button {
+    cursor: pointer;
+    background-color: #454545;
     width: 10%;
     height: 100%;
+    border-radius: 0 40px 40px 0;
+    border: #000 solid 0px;
 }
 
 .left_bar {
@@ -79,8 +96,10 @@ body {
 
 .home_span {
     margin-left: 30px;
+    color: #ffffff;
 }
 
 .video_menu {
     overflow-y: scroll;
 }
+
