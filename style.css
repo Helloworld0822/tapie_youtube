@@ -75,13 +75,14 @@ body {
 .left_bar {
     position: relative;
     top: 56px;
-    width: 18%;
+    width: 240px;
     height: 100%;
+    background-color: rgb(20, 20, 20);
 }
 
 .home_button {
     cursor: pointer;
-    height: 50px;
+    height: 40px;
     width: 100%;
     background-color: rgba(255,255,255,0);
     display: flex;
@@ -130,4 +131,38 @@ body {
 
 .subsc_button:hover {
     background-color: rgb(90, 90, 90);
+}
+
+.subsc_list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subsc_name {
+    cursor: pointer;
+    width: 95%;
+    height: 40px;
+    background-color: rgba(25, 25, 25, 0);
+    border: #000 solid 0;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 10px;
+}
+
+.subsc_name:hover {
+    background-color: rgb(90, 90, 90);
+}
+
+.user_img {
+    width: 24px;
+    height: 24spx;
+    border-radius: 50%;
+}
+
+.user_name {
+    color: white;
+    font: 14px;
+    margin: 20px;
 }
