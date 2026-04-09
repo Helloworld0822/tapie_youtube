@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(43, 43, 43);
+    background-color: rgb(20, 20, 20);
 }
 
 .menu {
@@ -23,21 +23,22 @@ body {
     cursor: pointer;
 }
 
-.search_container {
-    width: 50%;
-    height: 90%;
-
+.line {
+    border: 0;
+    height: 0.1px;
+    background: #c2c2c2;
 }
 
 .search_main_container {
-    width: 100%;
+    width: 500px;
     height: 40px;
     display: flex;
     align-items: center;
     flex-direction: row;
-    background-color: rgba(45, 45, 45, 0);
+    background-color: rgba(25, 25, 25, 1);
     border-radius: 40px; 
-    border : rgba(0,0,0,1) solid 1px;
+    border : rgba(25,25,25,1) solid 1px;
+    margin: 16px 0 20px 20px;
 }
 
 .search_img {
@@ -48,7 +49,14 @@ body {
     top: 10px;
     background-color: rgba(255,255,255,0);
     width: 70%;
+    font-size: 15px;
+    font-weight: 400;
     border: #000 solid 0px;
+    color: white;
+}
+
+.search_input:focus {
+    outline: none;
 }
 
 .keyboard_button {
@@ -84,7 +92,7 @@ body {
 }
 
 .home_button:hover {
-    background-color: rgb(90, 90, 89);
+    background-color: rgb(90, 90, 90);
 }
 
 .home_svg {
@@ -103,3 +111,23 @@ body {
     overflow-y: scroll;
 }
 
+.subsc_span {
+    color: white;
+    font-size: 16px;
+}
+
+.subsc_button {
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    background-color: rgba(25, 25, 25, 0);
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    border: #000 solid 0;
+    border-radius: 10px;
+}
+
+.subsc_button:hover {
+    background-color: rgb(90, 90, 90);
+}
