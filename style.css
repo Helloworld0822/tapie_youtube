@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(20, 20, 20);
+    background-color: rgb(5, 5, 5);
 }
 
 .menu {
@@ -10,7 +10,7 @@ body {
 .top {
     display: flex;
     width: 100%;
-    height: 56px;
+    height: 40px;
     align-items: center;
     flex-direction: row;
     position: fixed;
@@ -30,15 +30,15 @@ body {
 }
 
 .search_main_container {
-    width: 500px;
-    height: 40px;
+    width: 540px;
+    height: 35px;
     display: flex;
     align-items: center;
     flex-direction: row;
-    background-color: rgba(25, 25, 25, 1);
+    background-color: rgba(10, 10, 10, 1);
     border-radius: 40px; 
-    border : rgba(25,25,25,1) solid 1px;
-    margin: 16px 0 20px 30%;
+    border : rgba(40,40,40,1) solid 1px;
+    margin: 10px 0 20px 25%;
 }
 
 .search_img {
@@ -46,11 +46,13 @@ body {
 }
 
 .search_input {
-    top: 10px;
+    top: 2px;
     background-color: rgba(255,255,255,0);
-    width: 350px;
+    width: 500px;
     font-size: 15px;
     font-weight: 400;
+    height: 24px;
+    margin: 0 0 0 20px;
     border: #000 solid 0px;
     color: white;
 }
@@ -65,8 +67,8 @@ body {
 
 .search_button {
     cursor: pointer;
-    background-color: #454545;
-    width: 10%;
+    background-color: #161616;
+    width: 13%;
     height: 100%;
     border-radius: 0 40px 40px 0;
     border: #000 solid 0px;
@@ -75,9 +77,10 @@ body {
 .left_bar {
     position: relative;
     top: 56px;
-    width: 240px;
+    width: 220px;
     height: 100%;
-    background-color: rgb(20, 20, 20);
+    background-color: rgb(5, 5, 5);
+    overflow-y: scroll;
 }
 
 .home_button {
@@ -157,7 +160,7 @@ body {
 
 .user_img {
     width: 24px;
-    height: 24spx;
+    height: 24px;
     border-radius: 50%;
 }
 
@@ -165,4 +168,120 @@ body {
     color: white;
     font: 14px;
     margin: 20px;
+}
+
+.player_img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-bottom: 2px;
+    margin-left: 20px;
+}
+
+.alert_logo {
+    cursor: pointer;
+    margin-bottom: 2px;
+    margin-left: 10px;
+}
+
+.speak_button {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    background-color: rgba(40, 40, 40, 1);
+    border: #000 solid 0;
+}
+
+.speak_button:hover {
+    background-color: rgba(50, 50, 50, 1);
+}
+
+.player_button {
+    cursor: pointer;
+}
+
+.make_button {
+    cursor: pointer;
+    width: 96px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 40px;
+    margin-left: 400px;
+    margin-bottom: 8px;
+    background-color: rgba(40, 40, 40, 0);
+    border: #000 solid 0;
+}
+
+.make_button:hover {
+    background-color: rgb(50, 50, 50);
+}
+
+.video_menu {
+    display: flex;
+    width: calc(100% - 220px);
+    position: relative;
+    left: 220px;
+    bottom: 1100px;
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+.video_item {
+    cursor: pointer;
+    width: calc(95%/4 - 60px);
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.video_item:hover {
+    background-color: rgb(50, 50, 50);
+}
+
+.video_img {
+    width: 305px;
+    height: 170px;
+    margin: 10px 0 5px 0;
+    border-radius: 10px;
+}
+
+.video_text {
+    margin-right: 20px;
+    color: white;
+    width: 250px;
+}
+
+.video_detail_container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 10px;
+}
+
+.video_user_container {
+    width: 100%;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.video_user_text {
+    color: #c2c2c2;
+    margin: 2px 0 2px 50px;
+    font-size: 12px;
+}
+
+.video_user_img {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    margin: 10px 8px 8px 0;
 }
