@@ -38,7 +38,7 @@ body {
     background-color: rgba(25, 25, 25, 1);
     border-radius: 40px; 
     border : rgba(25,25,25,1) solid 1px;
-    margin: 16px 0 20px 20px;
+    margin: 16px 0 20px 30%;
 }
 
 .search_img {
@@ -48,7 +48,7 @@ body {
 .search_input {
     top: 10px;
     background-color: rgba(255,255,255,0);
-    width: 70%;
+    width: 350px;
     font-size: 15px;
     font-weight: 400;
     border: #000 solid 0px;
