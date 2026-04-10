@@ -1,5 +1,11 @@
 body {
     background-color: rgb(5, 5, 5);
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
 }
 
 .menu {
@@ -10,10 +16,13 @@ body {
 .top {
     display: flex;
     width: 100%;
-    height: 40px;
+    height: 60px;
     align-items: center;
     flex-direction: row;
     position: fixed;
+    top: 0px;
+    backdrop-filter: blur(50px);
+    z-index: 999;
 }
 
 .logo {
@@ -77,10 +86,11 @@ body {
 .left_bar {
     position: relative;
     top: 56px;
-    width: 220px;
+    width: 240px;
     height: 100%;
     background-color: rgb(5, 5, 5);
     overflow-y: scroll;
+    left: 10px;
 }
 
 .home_button {
@@ -225,17 +235,16 @@ body {
     display: flex;
     width: calc(100% - 220px);
     position: relative;
-    left: 220px;
     bottom: 1100px;
     height: 100%;
     flex-wrap: wrap;
     overflow: hidden;
-    margin-left: 230px;
+    margin-left: 300px;
 }
 
 .video_item {
     cursor: pointer;
-    width: calc(100%/4 - 50px);
+    width: calc(95%/4 - 60px);
     margin: 20px;
     display: flex;
     align-items: center;
@@ -248,8 +257,8 @@ body {
 }
 
 .video_img {
-    width: 425px;
-    height: 240px;
+    width: 305px;
+    height: 170px;
     margin: 10px 0 5px 0;
     border-radius: 10px;
 }
@@ -261,7 +270,6 @@ body {
 }
 
 .video_detail_container {
-    width: 100%;
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -278,7 +286,7 @@ body {
 
 .video_user_text {
     color: #c2c2c2;
-    margin: 2px 0 2px 42px;
+    margin: 2px 0 2px 50px;
     font-size: 12px;
 }
 
